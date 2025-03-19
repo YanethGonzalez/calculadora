@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 
@@ -13,9 +14,23 @@
 
     <main>
 
-    <input type="text" name="" id="texto" value="este es el value">
+        
+        <h1 class="titulo">CALCULADORA</h1>
 
-    <select name="" id="operacion">
+        <section class="operaciones">
+        
+        <h2 class="subtitulo">Primer numero</h2>
+
+        <input class="ingresarNumero" type="text" name="" id="texto" value="">
+
+        <h2 class="subtitulo">Segundo numero</h2>
+
+        <input class="ingresarNumero" type="text" name="" id="texto" value="">
+
+        <h2 class="subtitulo">Operación</h2>
+
+
+    <select class="operacion" name="" id="operacion">
         <option value="0">Seleccione la opcion</option>
         <option value="1">suma</option>
         <option value="2">resta</option>
@@ -23,12 +38,14 @@
         <option value="4">Division</option>
     </select>
 
-    <button id="calcula">Calcular</button>
+    <button class="botonCalcular" id="calcula">Calcular</button>
+
+</section>
 
     </main>
 
 
-    <footer>    </footer>
+    <footer class="footer"> Desarrollado por Yaneth González  </footer>
     
 
 
